@@ -11,8 +11,9 @@ const speechConvert = (req, res, next) => {
     })
     .then((toneAnalysis) => {
         
-        console.log(toneAnalysis.document_tone)
-        res.status(200).send(toneAnalysis)
+        console.log(toneAnalysis.document_tone.tones[0])
+        //res.status(200).send(toneAnalysis)
+        res.render('pages/home', { toneAnalysis })
     })
     .catch((err) => console.log('error:', err) || next ({err}))
 

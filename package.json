@@ -19,10 +19,11 @@
   "homepage": "https://github.com/timothydowd/watson-tryout#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
     "watson-developer-cloud": "^3.18.1"
   },
   "devDependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
     "nodemon": "^1.18.10"
   }
 }

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>The tone of your audio file has been analyzed as:</h1>
+    <h2>score: <%= toneAnalysis.document_tone.tones[0].score %></h2>
+    <h2>tone id: <%= toneAnalysis.document_tone.tones[0].tone_id %></h2>
+    <h2>tone: <%= toneAnalysis.document_tone.tones[0].tone_name %></h2>
+  </body>
+</html>

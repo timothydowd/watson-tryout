@@ -27,8 +27,6 @@ const readTone = (text) => {
             if (err) reject(err)
             else resolve(output)
         });
-
-
     })
 }
 
