@@ -6,6 +6,8 @@
     <title>Home</title>
   </head>
   <body>
+    <h1>Your audio files has been converted to the following text:</h1>
+    <h2>"<%= resultText.results[0].alternatives[0].transcript %>"</h2>
     <h1>The tone of your audio file has been analyzed as:</h1>
     <h2>score: <%= toneAnalysis.document_tone.tones[0].score %></h2>
     <h2>tone id: <%= toneAnalysis.document_tone.tones[0].tone_id %></h2>
