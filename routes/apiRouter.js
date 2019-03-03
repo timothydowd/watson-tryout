@@ -1,5 +1,5 @@
 const apiRouter = require("express").Router();
-const speechConvert = require('../controllers/speechToTextController')
+const speechConvert = require('../controllers/speechTextToneController')
 
 
 apiRouter.use("/watson", speechConvert);
